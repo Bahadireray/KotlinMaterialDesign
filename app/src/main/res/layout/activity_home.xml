@@ -6,4 +6,104 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/homePage"
+        android:layout_width="460dp"
+        android:layout_height="460dp"
+
+        android:layout_marginStart="214dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/home_page_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/homePage1"
+        android:layout_width="460dp"
+        android:layout_height="460dp"
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="-106dp"
+        android:src="@drawable/home_page_circle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/homePage1"
+        android:layout_width="165dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="240dp"
+        android:src="@drawable/home_image_big"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/homePage1"
+        android:layout_width="183dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="163dp"
+        android:src="@drawable/home_image_small"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="342dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="505dp"
+        android:fontFamily="@font/roboto_bold"
+        android:gravity="top"
+        android:text="Let’s Get Started"
+        android:textColor="@color/black"
+        android:textSize="65sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="660dp"
+        android:fontFamily="@font/inter_semibold"
+        android:text="Grow Together"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/joinButton"
+        android:layout_width="281dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="706dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="38dp"
+        android:backgroundTint="@color/black"
+        android:fontFamily="@font/inder"
+        android:gravity="center|center_horizontal|center_vertical"
+        android:onClick="joinButton"
+        android:text="JOIN NOW"
+        android:textSize="32sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
