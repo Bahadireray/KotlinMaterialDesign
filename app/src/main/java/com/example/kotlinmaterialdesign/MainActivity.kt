@@ -12,8 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         textView.text="merhaba"
 
-        val intent = Intent(this,HomeActivity::class.java)
-        startActivity(intent)
 
     }
     fun homeBtn(view: View)

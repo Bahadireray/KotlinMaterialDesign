@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".HomeActivity">
+    tools:context=".HomeActivity"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="-26dp">
 
 
     <de.hdodenhof.circleimageview.CircleImageView
@@ -12,8 +14,8 @@
         android:layout_width="460dp"
         android:layout_height="460dp"
 
-        android:layout_marginStart="214dp"
-        android:layout_marginTop="125dp"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="96dp"
         android:src="@drawable/home_page_circle"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +25,7 @@
         android:id="@+id/homePage1"
         android:layout_width="460dp"
         android:layout_height="460dp"
-        android:layout_marginStart="31dp"
+        android:layout_marginStart="28dp"
         android:layout_marginTop="-106dp"
         android:src="@drawable/home_page_circle"
         app:layout_constraintStart_toStartOf="parent"
@@ -35,7 +37,7 @@
         android:layout_width="165dp"
         android:layout_height="248dp"
         android:layout_marginStart="160dp"
-        android:layout_marginTop="240dp"
+        android:layout_marginTop="212dp"
         android:src="@drawable/home_image_big"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -46,7 +48,7 @@
         android:layout_width="183dp"
         android:layout_height="103dp"
         android:layout_marginStart="178dp"
-        android:layout_marginTop="163dp"
+        android:layout_marginTop="136dp"
         android:src="@drawable/home_image_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -58,7 +60,7 @@
         android:layout_width="342dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="33dp"
-        android:layout_marginTop="505dp"
+        android:layout_marginTop="455dp"
         android:fontFamily="@font/roboto_bold"
         android:gravity="top"
         android:text="Let’s Get Started"
@@ -66,7 +68,6 @@
         android:textSize="65sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -75,24 +76,23 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="40dp"
-        android:layout_marginTop="660dp"
+        android:layout_marginTop="632dp"
         android:fontFamily="@font/inter_semibold"
         android:text="Grow Together"
         android:textColor="@color/black"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintHorizontal_bias="0.049"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.button.MaterialButton
         android:id="@+id/joinButton"
-        android:layout_width="281dp"
+        android:layout_width="210dp"
         android:layout_height="70dp"
-        android:layout_marginStart="74dp"
-        android:layout_marginTop="720dp"
-        android:layout_marginEnd="73dp"
-        android:layout_marginBottom="38dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="660dp"
+        android:layout_marginEnd="100dp"
         android:backgroundTint="@color/black"
         android:fontFamily="@font/inder"
         android:gravity="center|center_horizontal|center_vertical"
@@ -102,7 +102,7 @@
         app:cornerRadius="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.514"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
