@@ -6,24 +6,25 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewBig"
+        android:layout_width="165dp"
+        android:layout_height="248dp"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="212dp"
+        android:src="@drawable/home_image_big"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imageViewSmall"
+        android:layout_width="183dp"
+        android:layout_height="103dp"
+        android:layout_marginStart="178dp"
+        android:layout_marginTop="136dp"
+        android:src="@drawable/home_image_small"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="146dp"
-        android:layout_marginTop="130dp"
-        android:onClick="homeBtn"
-        android:text="Button"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints" />
 </androidx.constraintlayout.widget.ConstraintLayout>
