@@ -24,21 +24,14 @@ class MainActivity : AppCompatActivity() {
                     duration = 1000
                     rotationXBy(360f)
                 }.start()
-
             }
 
             override fun onFinish() {
-
                 val intent = Intent(this@MainActivity, HomeActivity::class.java)
                 startActivity(intent)
-                overridePendingTransition(R.xml.no_animation,R.xml.slide_down)
+                overridePendingTransition(R.xml.no_animation, R.xml.slide_down)
+                finish()
             }
         }.start()
-
-    }
-
-    fun homeBtn(view: View) {
-        val intent = Intent(this, HomeActivity::class.java)
-        startActivity(intent)
     }
 }
