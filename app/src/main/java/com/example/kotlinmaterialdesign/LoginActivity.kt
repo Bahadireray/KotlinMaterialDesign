@@ -2,10 +2,10 @@ package com.example.kotlinmaterialdesign
 
 import android.content.Context
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_login.*
 
 class LoginActivity : AppCompatActivity() {
@@ -13,7 +13,6 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
     }
-
 
     fun backToHome(view: View) {
         val intent = Intent(this, HomeActivity::class.java)
@@ -40,7 +39,6 @@ class LoginActivity : AppCompatActivity() {
         } else {
             Toast.makeText(this, "Bilgileriniz Yanlış", Toast.LENGTH_LONG).show()
         }
-
     }
 
     fun signUp(view: View) {

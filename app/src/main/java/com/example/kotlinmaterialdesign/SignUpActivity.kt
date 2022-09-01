@@ -3,11 +3,11 @@ package com.example.kotlinmaterialdesign
 import android.content.Context
 import android.content.DialogInterface
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class SignUpActivity : AppCompatActivity() {
@@ -38,7 +38,6 @@ class SignUpActivity : AppCompatActivity() {
         myUserName = edtUserName.text.toString()
         myPassword = edtPassword.text.toString()
 
-        println("singup geldi")
         if ((myEmailId != "") && (myUserName != "") && (myPassword != "")) {
             val alert = AlertDialog.Builder(this@SignUpActivity)
             alert.setTitle("Kayıt Etmek ister misiniz?")
@@ -62,13 +61,10 @@ class SignUpActivity : AppCompatActivity() {
             }
             alert.setNegativeButton("Hayır") { dialogInterface: DialogInterface, i: Int ->
                 Toast.makeText(this, "Kayıt Başarısız", Toast.LENGTH_LONG).show()
-                println("no")
             }
             alert.show()
         } else {
             Toast.makeText(this, "Boş Değer Girmeyiniz", Toast.LENGTH_LONG).show()
         }
-
-
     }
 }
