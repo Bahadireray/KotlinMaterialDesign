@@ -19,6 +19,9 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
     }
 
+
+
+
     fun backtohome(view: View) {
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
