@@ -19,10 +19,7 @@ class SignUpActivity : AppCompatActivity() {
         setContentView(R.layout.activity_sign_up)
     }
 
-
-
-
-    fun backtohome(view: View) {
+    fun backToHome(view: View) {
         val intent = Intent(this, LoginActivity::class.java)
         startActivity(intent)
         this.overridePendingTransition(
@@ -32,7 +29,7 @@ class SignUpActivity : AppCompatActivity() {
         finish()
     }
 
-    fun signup(view: View) {
+    fun signUp(view: View) {
         val sharedPreferences = this.getSharedPreferences(
             "com.example.kotlinmaterialdesign",
             Context.MODE_PRIVATE
